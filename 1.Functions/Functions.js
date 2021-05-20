@@ -7,7 +7,7 @@ const c = add(1, 2)
 console.log(`Value of c is ${c}`)
 
 
-//------------------------------
+
 
 
 // Arrow function:
@@ -19,9 +19,10 @@ const d = addArrowFunction(2, 3)
 console.log(`Value of d is ${d}`)
 
 
-//------------------------------
 
-// Immediately invoked function
+
+
+// Immediately invoked function:
 ;(
     function immediatelyInvokedFunction() {
         const addTwoNumbers = 10 + 20
