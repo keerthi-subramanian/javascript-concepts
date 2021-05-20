@@ -1,3 +1,8 @@
+/**
+ * Types of function in JavaScript
+ */
+
+
 // Normal function:
 function add(a, b) {
     return a + b
