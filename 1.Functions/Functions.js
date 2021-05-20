@@ -2,16 +2,13 @@
  * Types of function in JavaScript
  */
 
-
-// Normal function:
+// A function:
 function add(a, b) {
     return a + b
 }
 
 const c = add(1, 2)
 console.log(`Value of c is ${c}`)
-
-
 
 
 
@@ -22,8 +19,6 @@ addArrowFunction = (i, j) => {
 
 const d = addArrowFunction(2, 3)
 console.log(`Value of d is ${d}`)
-
-
 
 
 
