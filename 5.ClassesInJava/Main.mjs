@@ -4,9 +4,9 @@ Demonstrates the use of class in JavaScript
 '.js' or '.cjs' extenstion means that the Node engine with use the CommonJS module system which is using the 'require' keyword
  */
 
-import DemoClass from "./DemoClass.mjs";
+import Calculation from "./DemoClass.mjs";
 
-const calculate = new DemoClass(1, 2)
+const calculate = new Calculation(1, 2)
 const additionOfTwoNumbers = calculate.add()
 const subtractionOfTwoNumbers = calculate.subtract()
 
