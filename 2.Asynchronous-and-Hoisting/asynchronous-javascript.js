@@ -1,6 +1,7 @@
 /**
 Demonstrates:
-1. JavaScript is asynchronous -> meaning does not execute line of code
+1. JavaScript is asynchronous -> meaning JS does not execute code line by line in a sequence
+(E.g., if a line has static wait, JS does not wait for the static wait to complete and proceeds with the next line of code)
 2. Hoisting - All objects are declared first before initialized with a value. https://www.w3schools.com/js/js_hoisting.asp
  */
 
