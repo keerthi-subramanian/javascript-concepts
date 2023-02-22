@@ -15,7 +15,9 @@ console.log(`Value of c is ${c}`)
 // Arrow function:
 addArrowFunction = (i, j) => {
     return i + j
-}
+} 
+// or
+// addArrowFunction = (i, j) => i + j;
 
 const d = addArrowFunction(2, 3)
 console.log(`Value of d is ${d}`)
